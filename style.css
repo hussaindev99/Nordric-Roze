@@ -1,0 +1,366 @@
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+.header {
+    padding: 20px;
+}
+
+.heading1 {
+    text-align: center;
+
+}
+
+.id {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.laptop {
+    width: 50%;
+    text-align: center;
+    margin: 0px auto;
+    align-items: center;
+
+}
+
+.ipsum {
+    width: 100%;
+    height: 400px;
+}
+
+.heading2 {
+    width: 50%;
+    margin: 0px auto;
+    padding: 10px;
+    align-items: center;
+}
+
+.profilename {
+    display: flex;
+    /* justify-content:  */
+}
+
+.mobile {
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+}
+
+.picture {
+    padding: 20px;
+    border-radius: 50%;
+    width: 100%;
+    display: flex;
+    margin-top: 2px;
+}
+
+.btton {
+    display: flex;
+    margin-top: 12px;
+}
+
+.btn1 {
+    border: 1px solid white;
+    width: 70px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagetext {
+    text-align: center;
+}
+
+.simpletext {
+    margin: auto;
+    width: 40%;
+    padding: 10px;
+}
+
+.line {
+    border-top: 1px dashed black;
+}
+
+.textimg {
+    display: flex;
+    padding: 5px;
+
+}
+
+.btn {
+    padding: 10px auto;
+    display: flex;
+    width: 50%;
+    height: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    border: 1px solid #EAEAEA;
+
+    background: #FFF;
+}
+
+.text {
+    padding: 0px 39px;
+}
+
+.line2 {
+    display: flex;
+}
+
+.number1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.card{
+    width: 304px;
+    height: auto;
+
+}
+
+
+
+.signContainer {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+}
+
+.sign {
+    width: 30%;
+    border: 1px solid black;
+    padding: 30px;
+    margin: 20px;
+}
+
+.bord {
+    width: 100%;
+}
+
+.bord input {
+    width: 60%;
+    padding: 20px;
+}
+
+.bord button {
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+.bord button {
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+.numas2 {
+    background-color: black;
+    color: white;
+}
+
+.numas2 {
+    margin-top: 10px;
+}
+
+.ford {
+    padding: 0px 0px 0px 0px;
+}
+
+.Rose {
+    padding-top: 40px;
+}
+
+.butt {
+    padding-top: 40px
+}
+
+.menubar {
+    display: none;
+}
+
+.menuitem {
+    display: flex;
+}
+
+.dashbod {
+    width: 100%;
+    height: 700px;
+}
+
+
+.photo {
+    width: 100%;
+}
+
+.photo1 {
+    width: 50%;
+    text-align: center;
+}
+
+.disply {
+    display: flex;
+    align-items: center;
+}
+
+.image1 {
+    height: 176px;
+    width: 304px;
+}
+.card_main{
+    width: 100%;
+    text-align: center;
+    margin: 0px auto;
+}
+
+@media screen and (max-width: 480px) {
+    .menubar {
+        display: block;
+    }
+
+    .menuitem {
+        display: none;
+    }
+
+    .dashbod {
+        height: 235px;
+    }
+
+    .simpletext {
+        width: 100%;
+    }
+
+    .heading2 {
+        width: 50%;
+        /* margin: auto; */
+        padding: 10px;
+        text-align: center;
+        align-items: center;
+    }
+
+    .disply {
+        display: block;
+    }
+
+    .number1 {
+        display: block;
+        width: 100%;
+
+    }
+
+    #id {
+        display: block;
+    }
+
+    .laptop {
+        width: 100%;
+    }
+
+    .numas1 {
+        width: 100%;
+        text-align: center;
+        overflow: hidden;
+    }
+    .card{
+        width: 100%;
+    }
+    .heading1 {
+        text-align: center;
+    
+    }
+    .picture {
+        padding-left: 10px;
+        border-radius: 50%;
+        width: 71.25px;
+        height: 71.25px;
+        display: flex;
+        margin-top: 0%;
+    }
+    .simpletext {
+        margin: 0px;
+        width: 100%;
+        padding: 0px;
+    }
+    .btn {
+        padding: 0px;
+        display: flex;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 4px;
+        border: 1px solid #EAEAEA;
+    
+        background: #FFF;
+    }
+    .textimg {
+        display: flex;
+        padding: 0%;
+    
+    }
+    .card_main{
+        width: 100%;
+        text-align: center;
+        margin: 0px 0px;
+    }
+    .sign {
+        width: 100%;
+        height: 305px;
+        border: 1px solid black;
+        padding: 0px;
+        margin: 0px;
+    }
+    
+
+.numas2 {
+    padding: 0%;
+    background-color: black;
+    color: white;
+}
+
+.numas2 {
+    margin-top: auto
+}
+.Rose {
+    padding-top: 10px;
+}
+.butt {
+    padding-top: 0px
+}
+.ford {
+    padding: 0px 0px 0px 0px;
+}
+
+}
+.parr {
+    margin: auto;
+    width: 30%;
+    padding: 10px;
+  }
+
+
+.name {
+    margin: 0px;
+    padding: 0px;
+    margin-left: 10px;
+}
+
+.facebookbtn {
+    width: 50%;
+}
+
+.button2 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
